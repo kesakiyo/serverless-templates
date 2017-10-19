@@ -1,0 +1,14 @@
+{
+  "name": "nodejs",
+  "description": "",
+  "version": "0.1.0",
+  "scripts": {
+    "offline": "serverless"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.16.0"
+  },
+  "peerDependencies": {
+    "serverless": "^1.23.0"
+  }
+}
