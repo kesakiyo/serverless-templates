@@ -3,7 +3,8 @@
   "description": "",
   "version": "0.1.0",
   "scripts": {
-    "start": "serverless offline start"
+    "start": "serverless offline start",
+    "deploy": "serverless deploy -v"
   },
   "devDependencies": {
     "serverless-offline": "^3.16.0"
