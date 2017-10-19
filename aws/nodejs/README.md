@@ -1,4 +1,4 @@
-# ch-sentry
+# aws-nodejs
 aws-nodejs 템플릿 입니다.
 
 ## 초기 설정
@@ -13,3 +13,5 @@ npm install
 ## 사용 방법
 
 ```npm start```: local에서 테스트 할 수 있는 서버를 실행합니다. 기본적으로 포트는 3000번입니다.
+
+```npm deploy```: service를 aws에 디플로이합니다. 기본적으로 진행 과정을 전체를 보여주도록 설정되어 있습니다.
