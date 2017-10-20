@@ -16,3 +16,14 @@ functions:
 
 plugins:
   - serverless-offline
+  - serverless-domain-manager
+
+# if you want to set custom domain
+# you must to set custom fields
+#custom:
+#  customDomain:
+#    basePath: ''
+#    domainName: {YOUR_DOMAIN_NAME}
+#    stage: ${self:provider.stage}
+#    certificateName: {YOUR_CERTIFICATE_NAME}
+#    createRoute53Record: true
