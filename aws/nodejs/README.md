@@ -14,4 +14,6 @@ npm install
 
 ```npm start```: local에서 테스트 할 수 있는 서버를 실행합니다. 기본적으로 포트는 3000번입니다.
 
+```npm run domain```: serverless.yml 파일에서 custom 필드를 설정한 뒤 실행하면 custom domain을 만들어줍니다.
+
 ```npm run deploy```: service를 aws에 디플로이합니다. 기본적으로 진행 과정을 전체를 보여주도록 설정되어 있습니다.

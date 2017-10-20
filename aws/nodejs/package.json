@@ -4,9 +4,11 @@
   "version": "0.1.0",
   "scripts": {
     "start": "serverless offline start",
+    "domain": "serverless create_domain",
     "deploy": "serverless deploy -v"
   },
   "devDependencies": {
+    "serverless-domain-manager": "^1.1.15",
     "serverless-offline": "^3.16.0"
   },
   "peerDependencies": {
